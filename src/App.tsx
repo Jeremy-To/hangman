@@ -74,6 +74,9 @@ function App() {
         alignItems: "center",
       }}
     >
+      <h1>
+          Hangman Game
+      </h1>
       <div style={{ fontSize: "2rem", textAlign: "center" }}>
         {isWinner && "Winner! - Refresh to try again"}
         {isLoser && "Nice Try - Refresh to try again"}
@@ -94,6 +97,7 @@ function App() {
           addGuessedLetter={addGuessedLetter}
         />
       </div>
+      <div>Made by Jeremy</div>
     </div>
   )
 }
